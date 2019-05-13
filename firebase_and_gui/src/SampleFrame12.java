@@ -31,7 +31,7 @@ public class SampleFrame12 extends JFrame implements ActionListener
   JButton button = new JButton("これはボタンです。");
   public SampleFrame12() //SampleFrame12クラスのコンストラクタ
   {
-    try //try構文の中で例外処理が発生した場合、catch文に飛ぶ
+    try //try構文の中で例外処理が発生した場合、catch文に飛ぶ.
     {
       // 初期化処理（プログラム開始時に一度だけ実行します）。
         String FILE_JSON = "/Users/HY/Downloads/fir-test-e4106-firebase-adminsdk-dk12d-502a62f8e6.json";
